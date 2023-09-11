@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px black;
 }
 
 /* Header */
@@ -12,12 +13,21 @@ header h1 {
 }
 
 /* Main */
+
 .brushes h2 {
     font-size: 32px;
     font-weight: bold;
     background-color: mediumspringgreen;
     color: white;
 }
+
+.brushes {
+    /*background-image: url(../Images/hacksaw.jpeg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 
 .frames h2 {
     font-size: 32px;
